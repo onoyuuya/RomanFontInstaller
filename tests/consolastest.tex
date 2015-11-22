@@ -1,0 +1,39 @@
+\documentclass{jsarticle}
+\special{pdf:mapfile consolas.map}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{lmodern}
+
+\begin{document}
+
+{This is a test document for font ``Consolas''.}
+
+NFSS family name: {\bfseries consolas}
+
+{\usefont{T1}{consolas}{m}{n}\selectfont Consolas Regular}\par
+{\usefont{T1}{consolas}{m}{sl}\selectfont Consolas Regular (slanted)}\par
+{\usefont{T1}{consolas}{m}{it}\selectfont Consolas Italic}\par
+{\usefont{T1}{consolas}{b}{n}\selectfont Consolas Bold}\par
+{\usefont{T1}{consolas}{b}{sl}\selectfont Consolas Bold (slanted)}\par
+{\usefont{T1}{consolas}{b}{it}\selectfont Consolas Bold Italic}\par
+
+\renewcommand{\ttdefault}{consolas}
+
+\begin{verbatim}
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char* argv[])
+{
+  if (argc == 1)
+  {
+    return 1;
+  }
+
+  int i = atoi(argv[1]);
+  printf("Hello, World! %d\n", i);
+  return 0;
+}
+\end{verbatim}
+
+\end{document}

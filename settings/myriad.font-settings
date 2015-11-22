@@ -1,0 +1,14 @@
+{
+    "family" : "myriad",
+    "shapes" : [
+        { "weight" : "m", "shape" :  "n", "tfmname" :  "r", "slanted" : false, "fontfile" : "MyriadPro-Regular.otf" },
+        { "weight" : "m", "shape" : "sl", "tfmname" : "ro", "slanted" :  true, "fontfile" : "MyriadPro-Regular.otf" },
+        { "weight" : "m", "shape" : "it", "tfmname" : "ri", "slanted" : false, "fontfile" : "MyriadPro-It.otf" },
+        { "weight" : "b", "shape" :  "n", "tfmname" :  "b", "slanted" : false, "fontfile" : "MyriadPro-Bold.otf" },
+        { "weight" : "b", "shape" : "sl", "tfmname" : "bo", "slanted" :  true, "fontfile" : "MyriadPro-Bold.otf" },
+        { "weight" : "b", "shape" : "it", "tfmname" : "bl", "slanted" : false, "fontfile" : "MyriadPro-BoldIt.otf" },
+        { "weight" : "bx", "shape" :  "n", "ssub" : {"weight" : "b", "shape" :  "n" } },
+		{ "weight" : "bx", "shape" : "sl", "ssub" : {"weight" : "b", "shape" : "sl" } },
+		{ "weight" : "bx", "shape" : "it", "ssub" : {"weight" : "b", "shape" : "it" } }
+    ]
+}

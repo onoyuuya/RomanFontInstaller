@@ -1,0 +1,20 @@
+\documentclass{jsarticle}
+\special{pdf:mapfile myriad.map}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{lmodern}
+
+\begin{document}
+
+{This is a test document for font ``Myriad''.}
+
+NFSS family name: {\bfseries myriad}
+
+{\usefont{T1}{myriad}{m}{n}\selectfont Myriad Regular}\par
+{\usefont{T1}{myriad}{m}{sl}\selectfont Myriad Regular (slanted)}\par
+{\usefont{T1}{myriad}{m}{it}\selectfont Myriad Italic}\par
+{\usefont{T1}{myriad}{b}{n}\selectfont Myriad Bold}\par
+{\usefont{T1}{myriad}{b}{sl}\selectfont Myriad Bold (slanted)}\par
+{\usefont{T1}{myriad}{b}{it}\selectfont Myriad Bold Italic}\par
+
+\end{document}

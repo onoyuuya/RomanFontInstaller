@@ -1,0 +1,8 @@
+{
+    "family" : "montserrat",
+    "shapes" : [
+        { "weight" : "m", "shape" : "n", "tfmname" : "r", "slanted" : false, "fontfile" : "Montserrat-Regular.otf" },
+        { "weight" : "b", "shape" : "n", "tfmname" : "b", "slanted" : false, "fontfile" : "Montserrat-Bold.otf" },
+        { "weight" : "bx", "shape" : "n", "ssub" : {"weight" : "b", "shape" :  "n" } }
+    ]
+}

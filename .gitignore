@@ -1,0 +1,7 @@
+*.ttf
+*.otf
+*.ttc
+*.pdf
+opentype/
+package/
+installers/

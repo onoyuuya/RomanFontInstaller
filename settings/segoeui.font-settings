@@ -1,0 +1,20 @@
+{
+    "family" : "segoeui",
+    "shapes" : [
+        { "weight" : "m", "shape" :  "n", "tfmname" :  "r", "slanted" : false, "fontfile" :  "segoeui.ttf" },
+        { "weight" : "m", "shape" : "sl", "tfmname" : "ro", "slanted" :  true, "fontfile" :  "segoeui.ttf" },
+        { "weight" : "m", "shape" : "it", "tfmname" : "ri", "slanted" : false, "fontfile" : "segoeuii.ttf" },
+        { "weight" : "l", "shape" :  "n", "tfmname" :  "l", "slanted" : false, "fontfile" : "segoeuil.ttf" },
+        { "weight" : "l", "shape" : "sl", "tfmname" : "lo", "slanted" :  true, "fontfile" : "segoeuil.ttf" },
+        { "weight" : "l", "shape" : "it", "ssub" : {"weight" : "l", "shape" : "sl" } },
+        { "weight" : "b", "shape" :  "n", "tfmname" :  "b", "slanted" : false, "fontfile" : "segoeuib.ttf" },
+        { "weight" : "b", "shape" : "sl", "tfmname" : "bo", "slanted" :  true, "fontfile" : "segoeuib.ttf" },
+        { "weight" : "b", "shape" : "it", "tfmname" : "bl", "slanted" : false, "fontfile" : "segoeuiz.ttf" },
+        { "weight" : "sb", "shape" :  "n", "tfmname" :  "s", "slanted" : false, "fontfile" : "seguisb.ttf" },
+        { "weight" : "sb", "shape" : "sl", "tfmname" : "so", "slanted" :  true, "fontfile" : "seguisb.ttf" },
+        { "weight" : "sb", "shape" : "it", "ssub" : {"weight" : "sb", "shape" : "sl" } },
+        { "weight" : "bx", "shape" :  "n", "ssub" : {"weight" : "b", "shape" :  "n" } },
+		{ "weight" : "bx", "shape" : "sl", "ssub" : {"weight" : "b", "shape" : "sl" } },
+		{ "weight" : "bx", "shape" : "it", "ssub" : {"weight" : "b", "shape" : "it" } }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "family" : "sourcepro",
+    "shapes" : [
+        { "weight" : "m", "shape" :  "n", "tfmname" :  "r", "slanted" : false, "fontfile" : "SourceCodePro-Regular.otf" },
+        { "weight" : "b", "shape" :  "n", "tfmname" :  "b", "slanted" : false, "fontfile" : "SourceCodePro-Bold.otf" },
+        { "weight" : "bx", "shape" :  "n", "ssub" : {"weight" : "b", "shape" :  "n" } }
+    ]
+}

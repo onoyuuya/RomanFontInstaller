@@ -1,0 +1,14 @@
+{
+    "family" : "consolas",
+    "shapes" : [
+        { "weight" : "m", "shape" :  "n", "tfmname" :  "r", "slanted" : false, "fontfile" :  "consola.ttf" },
+        { "weight" : "m", "shape" : "sl", "tfmname" : "ro", "slanted" :  true, "fontfile" :  "consola.ttf" },
+        { "weight" : "m", "shape" : "it", "tfmname" : "ri", "slanted" : false, "fontfile" : "consolai.ttf" },
+        { "weight" : "b", "shape" :  "n", "tfmname" :  "b", "slanted" : false, "fontfile" : "consolab.ttf" },
+        { "weight" : "b", "shape" : "sl", "tfmname" : "bo", "slanted" :  true, "fontfile" : "consolab.ttf" },
+        { "weight" : "b", "shape" : "it", "tfmname" : "bl", "slanted" : false, "fontfile" : "consolaz.ttf" },
+        { "weight" : "bx", "shape" :  "n", "ssub" : {"weight" : "b", "shape" :  "n" } },
+		{ "weight" : "bx", "shape" : "sl", "ssub" : {"weight" : "b", "shape" : "sl" } },
+		{ "weight" : "bx", "shape" : "it", "ssub" : {"weight" : "b", "shape" : "it" } }
+    ]
+}
